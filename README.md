@@ -1,4 +1,4 @@
-# Bert_Tranformer_with_HuggingFace & UsingFine_Tuning_Pretrained_Model_Spam_Mail_Using_Hugging_FaceTransformers
+# Sentiment Analysis of Bert_Tranformer_with_HuggingFace & UsingFine_Tuning_Pretrained_Model_Spam_Mail_Using_Hugging_FaceTransformers
 BERT
 Overview
 The BERT model was proposed in BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding by Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova. It’s a bidirectional transformer pretrained using a combination of masked language modeling objective and next sentence prediction on a large corpus comprising the Toronto Book Corpus and Wikipedia.
