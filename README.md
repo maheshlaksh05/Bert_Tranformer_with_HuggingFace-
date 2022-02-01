@@ -9,9 +9,8 @@ We introduce a new language representation model called BERT, which stands for B
 
 BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).
 
-Tips:
-
-BERT is a model with absolute position embeddings so it’s usually advised to pad the inputs on the right rather than the left.
+BERT is a model with absolute![image](https://user-images.githubusercontent.com/97341259/151912866-2c93dd5b-1442-4542-b666-2b011999d3c2.png)
+ position embeddings so it’s usually advised to pad the inputs on the right rather than the left.
 BERT was trained with the masked language modeling (MLM) and next sentence prediction (NSP) objectives. It is efficient at predicting masked tokens and at NLU in general, but is not optimal for text generation.
 This model was contributed by thomwolf. The original code can be found here.
 Natural language processing (NLP) is one of the most cumbersome areas of artificial intelligence when it comes to data preprocessing. Apart from the preprocessing and tokenizing text datasets, it takes a lot of time to train successful NLP models. But today is your lucky day! We will build a sentiment classifier with a pre-trained NLP model: BERT.
